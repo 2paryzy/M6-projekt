@@ -1,29 +1,40 @@
 Planen er at lave en hjemmeside
 Find idé - Kom med 3 ideer hver (tirsdag d. 25.)
 
-f1 odds webside.
-  - database for odds udregninger med stats
-  - events
-  - fale payment base
-  - fake udbetalings base
-  - fancy ui
+Vores proces:
+  Projektstart
+     ↓
+  Product Backlog
+     ↓
+  Sprint Planning
+     ↓
+  Sprint (udvikling + board + burndown)
+     ↓
+  Sprint Review + Retrospective
+     ↓
+  (Ny sprint)
 
 
-  - forside
-  - om virksomheden
-  - odds vinduet
-    - vindue udvidelse med mulighed for odss
-  - stats fra tidligere seasons
-    - kører
-    - holdet
-  - payment frontside
-  - udbetaling side
-  - opret konto vindue
-  - login
+Indhold:
+- Lav product backlog
+- Roller (kommer senere)
+  - Product Owner → bestemmer hvad der er vigtigst
+  - Scrum Master → styrer processen
+  - Developers → koder
+- Roadmap (sprints)
+- Scrum Board
+  - To-do
+  - In progress
+  - Done
+- Burndown chart
+- UML 
+  - Use case
+  - Klassediagram
 
 
-se video om htmml - code by ???
-tænkt på uml så kan de laves på torsdag
+Opgave ved siden af: 
+ - se video om htmml - code by ???
+ - tænkt på uml så kan de laves på torsdag
 
 ed - skitse noget ui
 
