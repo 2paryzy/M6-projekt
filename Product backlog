@@ -1,0 +1,19 @@
+F1-odds webside:
+  - Database for odds udregninger med stats
+  - Events
+  - Fale payment base
+  - Fake udbetalings base
+  - Fancy ui
+
+Backlog:
+  [ ] Forside
+  [ ] Om virksomheden
+  [ ] Odds vinduet
+    [ ] Vindue udvidelse med mulighed for odss
+  [ ] Stats fra tidligere seasons
+    [ ] Kører
+    [ ] Holdet
+  [ ] Payment frontside
+  [ ] Udbetaling side
+  [ ] Opret konto vindue
+  [ ] Login
