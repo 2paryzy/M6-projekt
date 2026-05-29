@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Statistik</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+
+<div id="navbar"></div>
+
+<!-- ✅ Titel -->
+<section class="content">
+    <h1>Statistik</h1>
+    <p>Her kan du se F1 statistik.</p>
+</section>
+
+<!-- ✅ Cards -->
+<section class="stats">
+
+    <div class="card" onclick="openModal('2024')">
+        <img src="images/pexels-bjorn-17555047.jpg">
+        <div class="overlay">2024</div>
+    </div>
+
+    <div class="card" onclick="openModal('2023')">
+        <img src="images/pexels-samuel-phillips-2148550424-36920232.jpg">
+        <div class="overlay">2023</div>
+    </div>
+
+    <div class="card" onclick="openModal('2022')">
+        <img src="images/pexels-jonathanborba-31204633.jpg">
+        <div class="overlay">2022</div>
+    </div>
+
+    <div class="card" onclick="openModal('2021')">
+        <img src="images/pexels-jonathanborba-29382704.jpg">
+        <div class="overlay">2021</div>
+    </div>
+
+</section>
+
+<!-- ✅ Popup -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+
+        <span class="close" onclick="closeModal()">&times;</span>
+
+        <h2 id="modalTitle"></h2>
+        <p id="modalText"></p>
+
+    </div>
+</div>
+
+<!-- ✅ Navbar loader -->
+<script src="js/loadNavbar.js"></script>
+
+<!-- ✅ Modal JS (EN KUN VERSION) -->
+<script>
+function openModal(year) {
+
+    const modal = document.getElementById("modal");
+    const title = document.getElementById("modalTitle");
+    const text = document.getElementById("modalText");
+
+    title.innerText = "F1 Sæson " + year;
+
+    if (year === "2024") {
+        text.innerHTML = `
+        <div class="modal-columns">
+            <div>
+                <h3>Kørere</h3>
+                <p>1. Verstappen – 12</p>
+                <p>2. Norris – 4</p>
+                <p>3. Leclerc – 3</p>
+                <p>4. Sainz – 2</p>
+                <p>5. Piastri – 1</p>
+            </div>
+
+            <div>
+                <h3>Teams</h3>
+                <p>1. Red Bull</p>
+                <p>2. McLaren</p>
+                <p>3. Ferrari</p>
+                <p>4. Mercedes</p>
+                <p>5. Aston Martin</p>
+            </div>
+        </div>
+        `;
+    }
+
+    else if (year === "2023") {
+        text.innerHTML = `
+        <div class="modal-columns">
+            <div>
+                <h3>Kørere</h3>
+                <p>1. Verstappen – 19</p>
+                <p>2. Perez – 2</p>
+                <p>3. Sainz – 1</p>
+                <p>4. Hamilton – 0</p>
+                <p>5. Alonso – 0</p>
+            </div>
+
+            <div>
+                <h3>Teams</h3>
+                <p>1. Red Bull</p>
+                <p>2. Mercedes</p>
+                <p>3. Ferrari</p>
+                <p>4. McLaren</p>
+                <p>5. Aston Martin</p>
+            </div>
+        </div>
+        `;
+    }
+
+    else if (year === "2022") {
+        text.innerHTML = `
+        <div class="modal-columns">
+            <div>
+                <h3>Kørere</h3>
+                <p>1. Verstappen – 15</p>
+                <p>2. Leclerc – 3</p>
+                <p>3. Perez – 2</p>
+                <p>4. Sainz – 1</p>
+                <p>5. Russell – 1</p>
+            </div>
+
+            <div>
+                <h3>Teams</h3>
+                <p>1. Red Bull</p>
+                <p>2. Ferrari</p>
+                <p>3. Mercedes</p>
+                <p>4. Alpine</p>
+                <p>5. McLaren</p>
+            </div>
+        </div>
+        `;
+    }
+
+    else if (year === "2021") {
+        text.innerHTML = `
+        <div class="modal-columns">
+            <div>
+                <h3>Kørere</h3>
+                <p>1. Verstappen – 10</p>
+                <p>2. Hamilton – 8</p>
+                <p>3. Bottas – 1</p>
+                <p>4. Perez – 1</p>
+                <p>5. Ocon – 1</p>
+            </div>
+
+            <div>
+                <h3>Teams</h3>
+                <p>1. Mercedes</p>
+                <p>2. Red Bull</p>
+                <p>3. Ferrari</p>
+                <p>4. McLaren</p>
+                <p>5. Alpine</p>
+            </div>
+        </div>
+        `;
+    }
+
+    modal.style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+</script>
+
+
+
+</body>
+</html>

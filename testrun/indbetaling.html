@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Indbetaling</title>
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+
+<div id="navbar"></div>
+
+<section class="content">
+    <h1>Indbetaling</h1>
+
+    <p>Vælg et beløb, du ønsker at indbetale.</p>
+
+    <form>
+        <label for="amount">Beløb (kr):</label><br>
+        <input type="number" id="amount" name="amount" min="50"><br><br>
+
+        <button type="submit">Bekræft indbetaling</button>
+    </form>
+
+    <br>
+
+    <button onclick="window.location.href='saldo.html'">
+        Tilbage til saldo
+    </button>
+</section>
+
+<script src="js/loadNavbar.js"></script>
+</body>
+</html>
