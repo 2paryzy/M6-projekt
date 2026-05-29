@@ -52,3 +52,65 @@ nav a:hover {
     padding: 40px;
     text-align: center;
 }
+/* =========================
+   STATISTIK SIDE
+   ========================= */
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(24, 46, 111, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;     
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+    background: #182E6F;
+    margin: 10% auto;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+.modal-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+
+.modal-columns div {
+    width: 50%;
+}
