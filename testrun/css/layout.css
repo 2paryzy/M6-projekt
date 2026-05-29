@@ -52,3 +52,105 @@ nav a:hover {
     padding: 40px;
     text-align: center;
 }
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #162652;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #070f17;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.btn-green {
+    background-color: #3ddc84;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* CONTENT */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+/* ODDSVINDUE */
+
+.odds-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.odds-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.odds-container {
+    background-color: #070f17;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.odds-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #111b2b;
+    font-weight: bold;
+}
+
+.odds-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-top: 1px solid #2d3c5c;
+}
+
+.odds-btn {
+    background-color: #3ddc84;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.odds-btn:hover {
+    opacity: 0.8;
+}
