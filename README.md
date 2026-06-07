@@ -39,29 +39,37 @@ Der er udvalgt at lave en F1 betting hjemmeside.
 1. Use case
 2. Activity
 
-## Struktur
-F1-Odds-Platform/
-│
-├── index.html
-│
-├── pages/
-│   ├── drivers.html
-│   ├── teams.html
-│   ├── races.html
-│   └── contact.html
-│
-├── css/
-│   ├── layout.css
-│   └── style.css
-│
-├── images/
-│   ├── verstappen.jpg
-│   ├── norris.jpg
-│   └── logo.png
-│
-├── docs/
-│   ├── project-plan.md
-│   ├── retrospective.md
-│   └── uml-overview.md
+## Struktur for vigtige filer
+M6 projekt/
+│ 
+│ 
+├── Testrun/
+│   ├── index.html
+│   ├── Login.html
+│   ├── konto.html
+│   ├── udbetaling.html
+│   ├── indbetaling.html
+│   ├── om os.html
+│   ├── statistik.html
+│   ├── navbar.html
+│   ├── saldo.html
+│   │
+│   │ 
+│   ├── Css/
+│   ├── Css/
+│   │   ├── stat.css
+│   │   ├── saldo.html
+│   │ 
+│   ├── Js/
+│   │   ├── loadnav.js
+│   │ 
+│   │ 
+│   ├── images/
+│   │   ├── image 1-7.jpg
+│   │ 
+│  
+├── Assets/
+│   ├── UML 1
+│   ├── UML 2
 │
 └── README.md
