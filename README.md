@@ -34,3 +34,7 @@ Der er udvalgt at lave en F1 betting hjemmeside.
 3. Commit
 4. Push
 5. Merge til main
+
+## UML i Miro
+1. Use case
+2. Activity
