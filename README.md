@@ -20,5 +20,4 @@ Dette projekt er udviklet som en del af kurset Design af IT-baserede systemer.
 
 ## Udviklere
 - Dennis
-- Gruppe medlem 2
-- Gruppe medlem 3
+- Edvins
