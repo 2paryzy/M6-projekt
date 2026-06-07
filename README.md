@@ -8,6 +8,8 @@ Dette projekt er udviklet som en del af kurset Design af IT-baserede systemer.
 - Oversigt over hold
 - Odds-information
 - Kontaktformular
+- Konto/ Opret konto/ Login
+- Indbetaling/ Udbetaling
 
 ## Teknologier
 - HTML
