@@ -11,7 +11,7 @@ Der er udvalgt at lave en F1 betting hjemmeside.
 - Kontaktformular
 - Konto/ Opret konto/ Login
 - Indbetaling/ Udbetaling
-
+- floating pop up viduer
 ## Teknologier
 - HTML
 - CSS
