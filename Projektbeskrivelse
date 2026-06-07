@@ -1,1 +1,125 @@
+Projektbeskrivelse – F1 Bets
+Introduktion
+Dette projekt omhandler udviklingen af en moderne hjemmeside til online betting på Formel 1-løb med navnet F1 Bets. Systemet er designet som en informations- og oddsplatform, hvor brugere kan oprette en konto, se aktuelle odds, undersøge tidligere løb og administrere ind- og udbetalinger.
+Projektet er udviklet som en del af faget Design af IT-baserede systemer med fokus på software engineering, samarbejde, versionsstyring og dokumentation fremfor selve produktets kompleksitet. Projektet anvender GitHub som versionsstyringsværktøj og følger en agil udviklingsproces inspireret af Scrum og Kanban.
+
+Formål
+Formålet med hjemmesiden er at skabe en brugervenlig og overskuelig platform for Formel 1-interesserede brugere, der ønsker at følge odds og interagere med bettingrelaterede funktioner.
+Projektets primære formål er dog at demonstrere:
+samarbejde i et udviklingsteam
+brug af versionsstyring med Git og GitHub
+systemdesign og software engineering principper
+projektstyring og dokumentation
+anvendelse af UML og mockups i udviklingsprocessen
+
+Systembeskrivelse
+Systemet består af flere sammenhængende websider udviklet i HTML, CSS og JavaScript. Hjemmesiden er designet med fokus på simpelt og intuitivt brugerdesign samt en ensartet visuel identitet.
+De vigtigste sider i systemet inkluderer:
+Forside med introduktion til platformen
+Kontooprettelse
+Login-side
+Kontooversigt
+Oversigt over tidligere Formel 1-løb
+Odds-side til kommende løb
+Indbetalingsside
+Udbetalingsside
+“Om os”-side
+Systemet er designet ud fra mockups udviklet tidligt i projektforløbet for at skabe en fælles forståelse af funktionalitet og layout.
+
+Målgruppe
+Målgruppen for hjemmesiden er:
+Formel 1-fans
+brugere med interesse for sportsbetting
+yngre og voksne brugere med interesse for motorsport
+Der er lagt vægt på:
+overskuelig navigation
+simple brugerflows
+tydelige funktioner
+moderne design
+
+Funktionelle krav
+Systemet skal kunne:
+lade brugere navigere mellem sider
+vise aktuelle Formel 1-odds
+vise statistik over tidligere løb
+lade brugere oprette en konto
+lade brugere logge ind
+håndtere simple ind- og udbetalinger
+vise brugerinformation på profilsiden
+
+Ikke-funktionelle krav
+Systemet skal:
+være responsivt
+have hurtig navigation mellem sider
+være brugervenligt
+have ensartet design
+være let at vedligeholde
+understøtte versionsstyring via GitHub
+
+Udviklingsmetode
+Projektet udvikles iterativt med inspiration fra agile udviklingsmetoder og Scrum.
+Gruppen anvender:
+Kanban board til opgavestyring
+GitHub Projects til planlægning
+branches til parallel udvikling
+commits og merges til versionsstyring
+retrospectives til evaluering af arbejdsprocessen
+Denne metode gør det muligt at arbejde parallelt og løbende forbedre systemet gennem feedback og iterationer.
+
+Systemdesign
+Der er udarbejdet:
+mockups af alle centrale sider
+UML-diagrammer til modellering af systemet
+roadmap og projektplan
+rollebeskrivelser
+Designet fokuserer på:
+simpel arkitektur
+tydelig navigation
+modularitet
+genbrugelige komponenter
+
+Teknologier
+Projektet udvikles med følgende teknologier:
+Teknologi
+Formål
+HTML
+Struktur
+CSS
+Styling og layout
+JavaScript
+Funktionalitet
+Git
+Versionsstyring
+GitHub
+Repository og samarbejde
+Figma/Mockup værktøj
+Design og prototyping
+
+
+Samarbejde og versionsstyring
+Alle projektfiler gemmes i et fælles GitHub repository. Gruppen arbejder med:
+feature branches
+commit history
+merge requests
+versionsstyring af dokumentation
+Dette sikrer sporbarhed og reducerer konflikter under udviklingen.
+
+Test og kvalitetssikring
+Systemet testes løbende gennem:
+funktionstest
+browser testing
+responsivt design test
+navigationstest
+Der udføres desuden brugerorienteret test for at sikre høj brugervenlighed.
+
+Konklusion
+Projektet demonstrerer anvendelsen af centrale software engineering-principper gennem udviklingen af en simpel, men funktionel bettinghjemmeside med fokus på proces, samarbejde og dokumentation.
+Udviklingsforløbet har givet erfaring med:
+agile arbejdsmetoder
+projektstyring
+UML og systemdesign
+GitHub og versionsstyring
+samarbejde i udviklingsteam
+Projektet viser dermed, hvordan software engineering-metoder kan anvendes i praksis til at strukturere og gennemføre udviklingen af et IT-system.
+
 
