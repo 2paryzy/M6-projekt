@@ -2,6 +2,7 @@
 
 ## Beskrivelse
 Dette projekt er udviklet som en del af kurset Design af IT-baserede systemer.
+Der er udvalgt at lave en F1 betting hjemmeside.
 
 ## Funktioner
 - Visning af Formel 1-kørere
@@ -14,6 +15,8 @@ Dette projekt er udviklet som en del af kurset Design af IT-baserede systemer.
 ## Teknologier
 - HTML
 - CSS
+- JavaScript
+- Miro
 - GitHub
 
 ## Installation
