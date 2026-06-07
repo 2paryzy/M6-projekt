@@ -1,0 +1,49 @@
+F1 betting- nuværende version- prototype- ikke klar til rollout
+
+
+Projektets arbejdsgang
+Roller har været mere flydende i processen, arbejdet foregik sammen primært hvilket gjorde versionsstyring og evaluering af ændringer mindre relevant. arbejdet kunne fordeles internt mere hvor man efterfølgende vurdere commits og merger ændring, og starter med ny base ved hvert nyt møde hvis projektets omfang skalaers.
+
+Arbejdsgangen har været mere tilpasset situationen frem for konkret struktureret.
+
+
+Formål:
+Formålet var at udvikle en færdig fungerende version af hjemmesider der kan køre problemfrit, derfor er der funktionsmangler i den nuværende version som kan ses som en prototype.
+
+Funktion mangel:
+Hjemmesiden prototype viser en fungerende hjemmeside med de funktioner der forventes at være. På nuværende tidspunkt er funktionerne ikke forbundet til de korrekte databaser og fungerer som visuel og tekniske guidelines for videreudvikling.
+
+
+Versionsstyring: 
+Individuelt arbejde i branches kan skabe problemer i commitments. Der blev skabt konflikter ved ændringer i HTML og CSS filerne
+
+
+Hvad fungere godt:
+Et flydende rollefordeling
+Refleksion over prototype
+Refleksion over github og dens funktioner
+Refleksion over funktionelle mangler
+
+
+
+hvad fungerede mindre godt:
+arbejdet kunne blive mindre konsekvent i arbejdet med branches grundet ikke flydende roller.
+Arbejdet med samme dokumenter kunne føre til konflikter ved merges/commits i main branch.
+Uvidenhed om githubs potentiale.
+
+
+Læring:
+Betydning af rollefordeling
+Vigtigheden af versionsstyring.
+Hvordan kanban kan understøtte projektstyring.
+HTML,CSS,JS og hvordan disse fungerer sammen.
+Korrekt planlægning tidligt i processen kan reducere risiko for konflikter i fremtiden.
+
+Hvad kunne gøres anderledes:
+Flere kode reviews.
+Mere konsekvent brug af branches.
+Bedre struktur og planlægning.
+Mere konsekvent rollefordeling.
+
+
+
