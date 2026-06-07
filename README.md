@@ -38,3 +38,30 @@ Der er udvalgt at lave en F1 betting hjemmeside.
 ## UML i Miro
 1. Use case
 2. Activity
+
+## Struktur
+F1-Odds-Platform/
+│
+├── index.html
+│
+├── pages/
+│   ├── drivers.html
+│   ├── teams.html
+│   ├── races.html
+│   └── contact.html
+│
+├── css/
+│   ├── layout.css
+│   └── style.css
+│
+├── images/
+│   ├── verstappen.jpg
+│   ├── norris.jpg
+│   └── logo.png
+│
+├── docs/
+│   ├── project-plan.md
+│   ├── retrospective.md
+│   └── uml-overview.md
+│
+└── README.md
