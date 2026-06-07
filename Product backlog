@@ -1,11 +1,11 @@
-F1-odds webside:
+# F1-odds webside:
   - Database for odds udregninger med stats
   - Events
   - Fale payment base
   - Fake udbetalings base
   - Fancy ui
 
-Backlog:
+# Backlog:
   [ ] Forside
   [ ] Om virksomheden
   [ ] Odds vinduet
